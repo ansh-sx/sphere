@@ -19,7 +19,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+            <script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('vemtoutcheeg.com',8747863,document.createElement('script'))</script>
+        <meta name="monetag" content="9dd22988c9ea6a2e288249357e753eb9" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
 }
+
